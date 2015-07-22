@@ -1,0 +1,9 @@
+{
+	"optional": [
+		"es7.exponentiationOperator",
+		"es7.comprehensions",
+		"es7.asyncFunctions",
+		"runtime"
+	],
+	"modules": "amd"
+}

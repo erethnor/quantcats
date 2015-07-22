@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Quantcats!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <h1>Catrancher</h1>
+        <!-- is it the submission date?? -->
+        <time datetime="2015-07-19T15:33:42.810Z" class="master-time">Sunday, July 19, 2015</time>
+
+        <main role="main" class="cats-picker">
+            Loading...
+        </main>
+
+        <aside class="clowders">
+            <h2 class="clowders_title">Clowders found</h2>
+
+            <div class="clowders_groups">
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+                <div class="clowders_groups_item"></div>
+            </div>
+        </aside>
+
+        <template id="cat-template">
+            <button class="cats-picker_cat">
+                <img class="cats-picker_cat_img" src="" alt="Cat!">
+            </button>
+        </template>
+
+        <template id="cat-solution-template">
+            <img class="clowders_groups_item_img" src="" alt="Cat!">
+        </template>
+
+        <script src="js/fetch.js"></script>
+        <script src="js/Promise.min.js"></script>
+        <script src="js/packed.js"></script>
+    </body>
+</html>
